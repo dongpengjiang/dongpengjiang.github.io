@@ -1,0 +1,151 @@
+/*全局性导航条样式*/
+
+.site-nav {
+    height: 43px;
+    border-top: 3px #123586 solid;
+    border-bottom: 1px #eee solid;
+}
+
+.head-nav {
+    width: 1000px;
+    height: 43px;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 200px;
+    height: 43px;
+    background-image: url(../images/logo.png);
+    background-position: 0 -130px;
+    float: left;
+}
+
+.head-nav-list {
+    width: 500px;
+    height: 43px;
+    text-align: right;
+    float: right;
+    line-height: 43px;
+}
+
+.head-nav-list span {
+    margin: 0 10px;
+}
+
+
+/*主体部分样式*/
+
+.title-img {
+    width: 1000px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.container {
+    width: 1030px;
+    margin: 0 auto;
+}
+
+.abs {
+    margin: 10px 0;
+    padding: 20px 0;
+    background-color: #f7f7f7;
+}
+
+
+/*幻灯片样式*/
+
+a.slidesjs-next,
+a.slidesjs-previous,
+a.slidesjs-play,
+a.slidesjs-stop {
+    background-image: url(../images/btns-next-prev.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 12px;
+    height: 18px;
+    overflow: hidden;
+    text-indent: -9999px;
+    float: left;
+    margin-right: 5px;
+}
+
+a.slidesjs-next {
+    margin-right: 10px;
+    background-position: -12px 0;
+}
+
+a:hover.slidesjs-next {
+    background-position: -12px -18px;
+}
+
+a.slidesjs-previous {
+    background-position: 0 0;
+}
+
+a:hover.slidesjs-previous {
+    background-position: 0 -18px;
+}
+
+a.slidesjs-play {
+    width: 15px;
+    background-position: -25px 0;
+}
+
+a:hover.slidesjs-play {
+    background-position: -25px -18px;
+}
+
+a.slidesjs-stop {
+    width: 18px;
+    background-position: -41px 0;
+}
+
+a:hover.slidesjs-stop {
+    background-position: -41px -18px;
+}
+
+.slidesjs-pagination {
+    margin: 7px 0 0;
+    float: right;
+    list-style: none;
+}
+
+.slidesjs-pagination li {
+    float: left;
+    margin: 0 1px;
+}
+
+.slidesjs-pagination li a {
+    display: block;
+    width: 13px;
+    height: 0;
+    padding-top: 13px;
+    background-image: url(../images/pagination.png);
+    background-position: 0 0;
+    float: left;
+    overflow: hidden;
+}
+
+.slidesjs-pagination li a.active,
+.slidesjs-pagination li a:hover.active {
+    background-position: 0 -13px
+}
+
+.slidesjs-pagination li a:hover {
+    background-position: 0 -26px
+}
+
+#slides a:link,
+#slides a:visited {
+    color: #333
+}
+
+#slides a:hover,
+#slides a:active {
+    color: #9e2020
+}
+
+.navbar {
+    overflow: hidden
+}
